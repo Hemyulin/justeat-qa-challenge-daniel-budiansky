@@ -15,5 +15,19 @@ test('Test case 1', async ({page}) => {
     console.log('filteredJobs: ', filteredJobs);
     console.log('numberOfGlobalFilteredJobs:', numberOfGlobalFilteredJobs);
 
-    const numberOfAvailableJobsWorldWide = 1
+
+    const jobList = page.locator('[data-ph-at-id="jobs-list"]')
+    const globalJobCount = await jobList.count()
+
+    console.log('globalJobCount:', globalJobCount);
+
+
+
+    const jobLocation = '[data-ph-at-id="job-info"]'
+
+    for(let i = 0; i < globalJobCount; i++){
+        const job = jobList.nth(i)
+        console.log('job: ', i, await job.innerText());
+    }
+
 })
