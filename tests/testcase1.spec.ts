@@ -21,13 +21,10 @@ test('Test case 1', async ({page}) => {
 
     console.log('globalJobCount:', globalJobCount);
 
-
-
-    const jobLocation = '[data-ph-at-id="job-info"]'
-
     for(let i = 0; i < globalJobCount; i++){
-        const job = jobList.nth(i)
-        console.log('job: ', i, await job.innerText());
-    }
+        const job = await jobList.nth(i).innerText()
 
+        console.log(`Job ${i}: `, job);
+        console.log(" ");
+    }
 })
