@@ -1,8 +1,11 @@
 import { expect, test } from '@playwright/test'
 
+test.beforeEach( async ({page}) => {
+    await page.goto('https://careers.justeattakeaway.com/global/en/home')
+})
+
 test('Test case 1', async ({page}) => {
     // Open https://careers.justeattakeaway.com/global/en/home
-    await page.goto('https://careers.justeattakeaway.com/global/en/home')
 
     // Search for the Job Title “Test”
     await page.locator('[placeholder="Search for job title"]').fill('Test')
@@ -62,4 +65,18 @@ test('Test case 1', async ({page}) => {
 
     await iterateOverJobList()
     expect(new Set(locations).size).toEqual(1)
+})
+
+test.only('Test case 2', async ({page}) => {
+    // Open https://careers.justeattakeaway.com/global/en/home
+
+    // Click on “Search for Job Title” and select “Sales” among Job Categories
+    await page.locator('[placeholder="Search for job title"]').click()
+    page.getByLabel('Search suggestions')
+    await page.getByRole('option', {name: 'Sales'}).click()
+
+    // Scroll to “Refine your search”
+    await page.getByText('Refine your search').click()
+
+    // Verify Category “Sales” is selected and the search results number is matching
 })
