@@ -21,10 +21,19 @@ test('Test case 1', async ({page}) => {
 
     console.log('globalJobCount:', globalJobCount);
 
-    for(let i = 0; i < globalJobCount; i++){
-        const job = await jobList.nth(i).innerText()
+    for (let i = 0; i < globalJobCount; i++) {
+        const job = jobList.nth(i)
 
-        console.log(`Job ${i}: `, job);
-        console.log(" ");
+        const locLocator = job.locator('[data-ph-at-id="job-location"][role="text"]')
+
+        if (await locLocator.count() === 0) {
+            console.log(`Job ${i +1}: NO LOCATION`)
+            continue
+        }
+
+        const rawLocation = await locLocator.innerText()
+        const cleanLocation = rawLocation.replace('Location :', '').trim()
+
+        console.log(`Job ${i + 1}: ${cleanLocation}`)
     }
 })
