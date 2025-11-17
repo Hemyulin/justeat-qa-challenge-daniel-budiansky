@@ -92,6 +92,11 @@ test.only("Test case 2", async ({ page }) => {
   page.getByLabel("Search suggestions");
   await page.getByRole("option", { name: "Sales" }).click();
 
+  const cookieAccept = page.getByRole("button", { name: /Accept all/i });
+  if (await cookieAccept.isVisible()) {
+    await cookieAccept.click();
+  }
+
   // Scroll to “Refine your search”
   page.getByText("Refine your search");
 
@@ -109,6 +114,10 @@ test.only("Test case 2", async ({ page }) => {
 
   expect(numberOfSalesJobs).toEqual(resultCountNumber);
 
+  if (await cookieAccept.isVisible()) {
+    await cookieAccept.click();
+  }
+
   // Then Refine your search from the left panel to the Country “Germany”
   await page.locator("#CountryAccordion").click();
 
@@ -123,5 +132,42 @@ test.only("Test case 2", async ({ page }) => {
   //   Verify the number of the search results is matching and category is “Sales” on all results
   const germanyLabelInnerText = await germanyLabel.innerText();
   const numberOfSalesJobsInGermany = Number(germanyLabelInnerText.match(/\d+/));
-  console.log(numberOfSalesJobsInGermany);
+
+  const resultsHeader = page
+    .locator('[data-ph-at-id="heading-text"]')
+    .filter({ hasText: /Showing/i });
+
+  const filteredCountText = await resultsHeader.innerText();
+  const filteredCount = Number(filteredCountText.match(/\d+/));
+
+  const filteredList = page.locator(
+    'div.content-block.au-target.phw-content-block-nd ul[data-ph-at-id="jobs-list"] li.jobs-list-item'
+  );
+
+  //   await expect(filteredList).toHaveCountGreaterThan(0);
+
+  const globalJobCount = await filteredList.count();
+
+  const locations: string[] = [];
+
+  const iterateOverJobList = async () => {
+    for (let i = 0; i < globalJobCount; i++) {
+      const job = filteredList.nth(i);
+
+      const locLocator = job.locator(
+        '[data-ph-at-id="job-location"][role="text"]'
+      );
+
+      if ((await locLocator.count()) === 0) {
+        continue;
+      }
+
+      const rawLocation = await locLocator.innerText();
+      const cleanLocation = rawLocation.replace("Location :", "").trim();
+      locations.push(cleanLocation);
+    }
+  };
+  await iterateOverJobList();
+  const allTexts = await filteredList.allInnerTexts();
+  console.log(allTexts);
 });
