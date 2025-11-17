@@ -119,4 +119,9 @@ test.only("Test case 2", async ({ page }) => {
   const germanyCheckbox = page.getByRole("checkbox", { name: /Germany/i });
 
   await expect(germanyCheckbox).toBeChecked();
+
+  //   Verify the number of the search results is matching and category is “Sales” on all results
+  const germanyLabelInnerText = await germanyLabel.innerText();
+  const numberOfSalesJobsInGermany = Number(germanyLabelInnerText.match(/\d+/));
+  console.log(numberOfSalesJobsInGermany);
 });

@@ -1,0 +1,703 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - link "Skip to main content" [ref=e5] [cursor=pointer]:
+      - /url: "#skipToMainContent"
+    - generic [ref=e9]:
+      - link "Company Logo" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img "Figma-header-logo" [ref=e12]
+      - navigation [ref=e19]:
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "Home" [ref=e23] [cursor=pointer]:
+              - /url: https://careers.justeattakeaway.com/global/en/home
+          - listitem [ref=e24]:
+            - button "Search Jobs" [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]: Search Jobs
+              - img [ref=e28]
+          - listitem [ref=e30]:
+            - button "Teams" [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]: Teams
+              - img [ref=e34]
+          - listitem [ref=e36]:
+            - button "Our Company" [ref=e37] [cursor=pointer]:
+              - generic [ref=e38]: Our Company
+              - img [ref=e40]
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - button "Language selected English English" [ref=e48] [cursor=pointer]:
+            - img [ref=e50]
+            - generic [ref=e52]: English
+            - generic:
+              - img
+        - listitem [ref=e53]:
+          - link "0 saved Jobs" [ref=e56] [cursor=pointer]:
+            - /url: https://careers.justeattakeaway.com/global/en/jobcart
+            - generic [ref=e57]: Saved Jobs
+            - generic [ref=e58]: (0)
+  - main [ref=e59]:
+    - generic [ref=e61] [cursor=pointer]: "-"
+    - generic [ref=e64] [cursor=pointer]: "-"
+    - generic [ref=e73]:
+      - figure [ref=e74]:
+        - img "img1" [ref=e77]
+      - generic [ref=e78]:
+        - generic [ref=e87]:
+          - text: we power
+          - text: partnerships
+        - link "Discover jobs" [ref=e90] [cursor=pointer]:
+          - /url: https://careers.justeattakeaway.com/global/en/c/sales-jobs#ph-fcYT8
+          - generic [ref=e91]: Discover jobs
+          - text: 
+    - generic [ref=e105]:
+      - heading "can you power partnerships?" [level=1] [ref=e106]:
+        - generic [ref=e108]:
+          - text: can you
+          - generic [ref=e109]: power partnerships?
+      - generic [ref=e111]: Being part of Sales means you build relationships with our connected partners, from the mom and pop shop around the corner to the well-known restaurant chain. You will help them be successful. After all, A win for them, is a win for us.
+    - generic [ref=e122]:
+      - figure [ref=e123]:
+        - img "img1" [ref=e126]
+      - generic:
+        - button "click here to play video in dialog" [ref=e128] [cursor=pointer]:
+          - figure "Watch the video" [ref=e129]
+        - generic: $  
+    - generic [ref=e135]:
+      - heading "does this sound like you?" [level=2] [ref=e141]:
+        - generic [ref=e142]:
+          - generic [ref=e144]: does this
+          - generic [ref=e146]: sound like you?
+      - list [ref=e150]:
+        - listitem [ref=e151]:
+          - generic [ref=e153]:
+            - figure [ref=e156]:
+              - img "img1" [ref=e159]
+            - generic [ref=e166]: You are ready to win and help us build the best possible sales team in the world, together.
+        - listitem [ref=e167]:
+          - generic [ref=e169]:
+            - figure [ref=e172]:
+              - img "img1" [ref=e175]
+            - generic [ref=e182]: You’re a great relationship builder, who enjoys guiding others to achieve the best results.
+        - listitem [ref=e183]:
+          - generic [ref=e185]:
+            - figure [ref=e188]:
+              - img "img1" [ref=e191]
+            - generic [ref=e198]: You love deep diving into your local market, being an expert into what’s happening and applying that to support your restaurants.
+    - generic [ref=e212]:
+      - heading "a support network you can count on" [level=3] [ref=e213]:
+        - generic [ref=e216]:
+          - generic [ref=e217]: a support network
+          - generic [ref=e218]: you can count on
+      - generic [ref=e220]: Whether you join us in one of our bustling hubs or at our global headquarters, you’ll be part of a community you can lean on. Collaboration is key in what we do – because you can tackle every challenge with a great team!
+    - img "img1" [ref=e234]
+    - generic [ref=e249]:
+      - heading "it’s your journey" [level=3] [ref=e250]:
+        - generic [ref=e251]: it’s your journey
+      - generic [ref=e254]: As an ever-growing company with millions of customers and offices in international locations, things move fast here. That means we’re always serving up great new opportunities for you to grow and develop your career.
+    - img "img1" [ref=e268]
+    - generic [ref=e273]:
+      - heading "meet our people" [level=2] [ref=e278]:
+        - generic [ref=e280]: meet our people
+      - list [ref=e282]:
+        - listitem [ref=e283]:
+          - generic [ref=e284]:
+            - link [ref=e285] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=r8cD7pMFKU8
+            - figure [ref=e287]:
+              - img "img1" [ref=e290]
+        - listitem [ref=e291]:
+          - generic [ref=e292]:
+            - link [ref=e293] [cursor=pointer]:
+              - /url: https://open.spotify.com/episode/0RE24sHSVvH9WC7aH6jpEf
+            - figure [ref=e295]:
+              - img "img1" [ref=e298]
+        - listitem [ref=e299]:
+          - generic [ref=e300]:
+            - link [ref=e301] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=yCmYNUhCOB8&list
+            - figure [ref=e303]:
+              - img "img1" [ref=e306]
+    - generic [ref=e307]:
+      - region "Carousel" [ref=e310]:
+        - generic [ref=e311]:
+          - heading "hear from our employees" [level=2] [ref=e316]:
+            - generic [ref=e319]: hear from our employees
+          - generic [ref=e321]:
+            - generic [ref=e324]:
+              - figure [ref=e327]:
+                - img "img1" [ref=e330]
+              - generic [ref=e332]:
+                - generic [ref=e340]: "\"The best thing about working for Menulog is the people. There's always an exciting project to work on, and you have the resources and support of a great team to get it done. I've been able to grow thanks to collaboration with and learning from my colleagues, along with access to training resources.\""
+                - strong [ref=e345]:
+                  - generic [ref=e347]: Rhiannon
+                - generic [ref=e354]: Sales Analyst, Sydney
+            - generic [ref=e357]:
+              - figure [ref=e360]:
+                - img "img1" [ref=e363]
+              - generic [ref=e365]:
+                - generic [ref=e374]: "\"I love how much room I have to bring and develop my own ideas. My team lead welcomes them with open arms and gives me the time and resources I need to execute them. Thanks to my ideas, we've increased our business results and I'm really proud of it!\""
+                - strong [ref=e379]:
+                  - generic [ref=e382]: Lucas
+                - generic [ref=e389]: Business Analyst, Berlin
+            - generic [ref=e392]:
+              - figure [ref=e395]:
+                - img "img1" [ref=e398]
+              - generic [ref=e400]:
+                - generic [ref=e409]: "\"As a sales leader we create a sales environment where we trust each other, hold ourselves accountable and put the team and our partners ahead of ourselves. We foster a sales performance culture where we continuously innovate, reach further, and execute faster on achieving our mission.\""
+                - strong [ref=e414]:
+                  - generic [ref=e417]: Guido
+                - generic [ref=e424]: Executive Vice President, Sales, Amsterdam
+            - generic [ref=e427]:
+              - figure [ref=e430]:
+                - img "img1" [ref=e433]
+              - generic [ref=e435]:
+                - generic [ref=e444]: "\"Coming here was on of the best decisions I could have made. There is phenomenal Leadership, mentoring and coaching. Working here has made me aware of my self-worth again. Month by month I experienced how a non-toxic working environment can empower, motivate and develop people.\""
+                - strong [ref=e449]:
+                  - generic [ref=e452]: Jens
+                - generic [ref=e459]: Team Lead Sales Coordination (Sales Marketplace), Berlin
+      - heading "sales job opportunities" [level=3] [ref=e474]:
+        - generic [ref=e477]: sales job opportunities
+      - generic [ref=e480]:
+        - region "Refine your search" [ref=e485]:
+          - text: $
+          - heading "Refine your search" [level=2] [ref=e488]
+          - generic [ref=e489]:
+            - generic [ref=e490]:
+              - heading "Category" [level=3] [ref=e493]:
+                - button "Category" [expanded] [ref=e494] [cursor=pointer]:
+                  - text: Category
+                  - generic [ref=e495]: "8"
+              - generic [ref=e497]:
+                - generic [ref=e499]:
+                  - searchbox "Search category" [ref=e500]
+                  - text: ":"
+                - group "Category" [ref=e502]:
+                  - generic [ref=e503]: Category
+                  - list [ref=e504]:
+                    - listitem [ref=e505]:
+                      - generic [ref=e506] [cursor=pointer]:
+                        - checkbox "Sales 66 jobs" [checked] [ref=e507]
+                        - generic [ref=e509]:
+                          - text: Sales
+                          - generic [ref=e510]:
+                            - text: (66)
+                            - generic [ref=e511]: jobs
+                    - listitem [ref=e512]:
+                      - generic [ref=e513] [cursor=pointer]:
+                        - checkbox "Tech & Product 28 jobs" [ref=e514]
+                        - generic [ref=e516]:
+                          - text: Tech & Product
+                          - generic [ref=e517]:
+                            - text: (28)
+                            - generic [ref=e518]: jobs
+                    - listitem [ref=e519]:
+                      - generic [ref=e520] [cursor=pointer]:
+                        - checkbox "Corporate 23 jobs" [ref=e521]
+                        - generic [ref=e523]:
+                          - text: Corporate
+                          - generic [ref=e524]:
+                            - text: (23)
+                            - generic [ref=e525]: jobs
+                    - listitem [ref=e526]:
+                      - generic [ref=e527] [cursor=pointer]:
+                        - checkbox "Operations & Logistics 19 jobs" [ref=e528]
+                        - generic [ref=e530]:
+                          - text: Operations & Logistics
+                          - generic [ref=e531]:
+                            - text: (19)
+                            - generic [ref=e532]: jobs
+                    - listitem [ref=e533]:
+                      - generic [ref=e534] [cursor=pointer]:
+                        - checkbox "Marketing 15 jobs" [ref=e535]
+                        - generic [ref=e537]:
+                          - text: Marketing
+                          - generic [ref=e538]:
+                            - text: (15)
+                            - generic [ref=e539]: jobs
+                    - listitem [ref=e540]:
+                      - generic [ref=e541] [cursor=pointer]:
+                        - checkbox "Data & Analytics 14 jobs" [ref=e542]
+                        - generic [ref=e544]:
+                          - text: Data & Analytics
+                          - generic [ref=e545]:
+                            - text: (14)
+                            - generic [ref=e546]: jobs
+                    - listitem [ref=e547]:
+                      - generic [ref=e548] [cursor=pointer]:
+                        - checkbox "Customer Service 12 jobs" [ref=e549]
+                        - generic [ref=e551]:
+                          - text: Customer Service
+                          - generic [ref=e552]:
+                            - text: (12)
+                            - generic [ref=e553]: jobs
+                    - listitem [ref=e554]:
+                      - generic [ref=e555] [cursor=pointer]:
+                        - checkbox "Human Resources 12 jobs" [ref=e556]
+                        - generic [ref=e558]:
+                          - text: Human Resources
+                          - generic [ref=e559]:
+                            - text: (12)
+                            - generic [ref=e560]: jobs
+                    - listitem [ref=e561]:
+                      - generic [ref=e562] [cursor=pointer]:
+                        - checkbox "Finance 10 jobs" [ref=e563]
+                        - generic [ref=e565]:
+                          - text: Finance
+                          - generic [ref=e566]:
+                            - text: (10)
+                            - generic [ref=e567]: jobs
+                    - listitem [ref=e568]:
+                      - generic [ref=e569] [cursor=pointer]:
+                        - checkbox "Other 6 jobs" [ref=e570]
+                        - generic [ref=e572]:
+                          - text: Other
+                          - generic [ref=e573]:
+                            - text: (6)
+                            - generic [ref=e574]: jobs
+            - generic [ref=e575]:
+              - heading "Country" [level=3] [ref=e578]:
+                - button "Country" [expanded] [ref=e579] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=e580]: "8"
+              - generic [ref=e582]:
+                - generic [ref=e584]:
+                  - searchbox "Search country" [ref=e585]
+                  - text: ":"
+                - group "Country" [ref=e587]:
+                  - generic [ref=e588]: Country
+                  - list [ref=e589]:
+                    - listitem [ref=e590]:
+                      - generic [ref=e591] [cursor=pointer]:
+                        - checkbox "Netherlands 12 jobs" [ref=e592]
+                        - generic [ref=e594]:
+                          - text: Netherlands
+                          - generic [ref=e595]:
+                            - text: (12)
+                            - generic [ref=e596]: jobs
+                    - listitem [ref=e597]:
+                      - generic [ref=e598] [cursor=pointer]:
+                        - checkbox "Germany 11 jobs" [checked] [active] [ref=e599]
+                        - generic [ref=e601]:
+                          - text: Germany
+                          - generic [ref=e602]:
+                            - text: (11)
+                            - generic [ref=e603]: jobs
+                    - listitem [ref=e604]:
+                      - generic [ref=e605] [cursor=pointer]:
+                        - checkbox "United Kingdom 11 jobs" [ref=e606]
+                        - generic [ref=e608]:
+                          - text: United Kingdom
+                          - generic [ref=e609]:
+                            - text: (11)
+                            - generic [ref=e610]: jobs
+                    - listitem [ref=e611]:
+                      - generic [ref=e612] [cursor=pointer]:
+                        - checkbox "Belgium 6 jobs" [ref=e613]
+                        - generic [ref=e615]:
+                          - text: Belgium
+                          - generic [ref=e616]:
+                            - text: (6)
+                            - generic [ref=e617]: jobs
+                    - listitem [ref=e618]:
+                      - generic [ref=e619] [cursor=pointer]:
+                        - checkbox "Poland 6 jobs" [ref=e620]
+                        - generic [ref=e622]:
+                          - text: Poland
+                          - generic [ref=e623]:
+                            - text: (6)
+                            - generic [ref=e624]: jobs
+                    - listitem [ref=e625]:
+                      - generic [ref=e626] [cursor=pointer]:
+                        - checkbox "Austria 4 jobs" [ref=e627]
+                        - generic [ref=e629]:
+                          - text: Austria
+                          - generic [ref=e630]:
+                            - text: (4)
+                            - generic [ref=e631]: jobs
+                    - listitem [ref=e632]:
+                      - generic [ref=e633] [cursor=pointer]:
+                        - checkbox "Denmark 4 jobs" [ref=e634]
+                        - generic [ref=e636]:
+                          - text: Denmark
+                          - generic [ref=e637]:
+                            - text: (4)
+                            - generic [ref=e638]: jobs
+                    - listitem [ref=e639]:
+                      - generic [ref=e640] [cursor=pointer]:
+                        - checkbox "Ireland 4 jobs" [ref=e641]
+                        - generic [ref=e643]:
+                          - text: Ireland
+                          - generic [ref=e644]:
+                            - text: (4)
+                            - generic [ref=e645]: jobs
+                    - listitem [ref=e646]:
+                      - generic [ref=e647] [cursor=pointer]:
+                        - checkbox "Switzerland 2 jobs" [ref=e648]
+                        - generic [ref=e650]:
+                          - text: Switzerland
+                          - generic [ref=e651]:
+                            - text: (2)
+                            - generic [ref=e652]: jobs
+                    - listitem [ref=e653]:
+                      - generic [ref=e654] [cursor=pointer]:
+                        - checkbox "Bulgaria 1 job" [ref=e655]
+                        - generic [ref=e657]:
+                          - text: Bulgaria
+                          - generic [ref=e658]:
+                            - text: (1)
+                            - generic [ref=e659]: job
+                    - listitem [ref=e660]:
+                      - generic [ref=e661] [cursor=pointer]:
+                        - checkbox "Israel 1 job" [ref=e662]
+                        - generic [ref=e664]:
+                          - text: Israel
+                          - generic [ref=e665]:
+                            - text: (1)
+                            - generic [ref=e666]: job
+                    - listitem [ref=e667]:
+                      - generic [ref=e668] [cursor=pointer]:
+                        - checkbox "Slovakia 1 job" [ref=e669]
+                        - generic [ref=e671]:
+                          - text: Slovakia
+                          - generic [ref=e672]:
+                            - text: (1)
+                            - generic [ref=e673]: job
+                    - listitem [ref=e674]:
+                      - generic [ref=e675] [cursor=pointer]:
+                        - checkbox "Spain 1 job" [ref=e676]
+                        - generic [ref=e678]:
+                          - text: Spain
+                          - generic [ref=e679]:
+                            - text: (1)
+                            - generic [ref=e680]: job
+                    - listitem [ref=e681]:
+                      - generic [ref=e682] [cursor=pointer]:
+                        - checkbox "Unspecified 2 jobs" [ref=e683]
+                        - generic [ref=e685]:
+                          - text: Unspecified
+                          - generic [ref=e686]:
+                            - text: (2)
+                            - generic [ref=e687]: jobs
+            - generic [ref=e688]:
+              - heading "City" [level=3] [ref=e691]:
+                - button "City" [ref=e692] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=e693]: (
+              - generic: ":"
+            - generic [ref=e694]:
+              - heading "Type" [level=3] [ref=e697]:
+                - button "Type" [ref=e698] [cursor=pointer]:
+                  - text: Type
+                  - generic [ref=e699]: (
+              - generic: ":"
+          - generic [ref=e701]: Search results updated 66 jobs found
+        - generic [ref=e706]:
+          - region "Search results" [ref=e707]:
+            - list [ref=e710]:
+              - listitem [ref=e711]:
+                - generic [ref=e712]: Sales
+                - button "Remove Sales filter" [ref=e713] [cursor=pointer]:
+                  - generic [ref=e714]: $
+              - listitem [ref=e715]:
+                - generic [ref=e716]: Germany
+                - button "Remove Germany filter" [ref=e717] [cursor=pointer]:
+                  - generic [ref=e718]: $
+              - listitem [ref=e719]:
+                - button "Clear all filters" [ref=e720] [cursor=pointer]:
+                  - generic [ref=e721]: Clear all
+            - generic [ref=e723]:
+              - generic [ref=e724]:
+                - generic [ref=e725]:
+                  - img "loading"
+                - generic [ref=e726]:
+                  - generic [ref=e729]:
+                    - generic [ref=e730]: Search from below list
+                    - textbox "Search from below list" [ref=e731]
+                    - text: "$ :"
+                  - generic [ref=e733]:
+                    - generic [ref=e734]: 66 jobs
+                    - generic [ref=e735]:
+                      - text: "|"
+                      - generic [ref=e736]: Sort by
+                      - generic [ref=e737]:
+                        - combobox "Sort by" [ref=e738]:
+                          - option "Most relevant" [selected]
+                          - option "Most recent"
+                        - generic: 
+                    - text: F
+              - list [ref=e740]:
+                - listitem [ref=e741]:
+                  - generic [ref=e742]:
+                    - generic [ref=e743]:
+                      - 'heading "Inside Sales Executive job code: R_046187" [level=3] [ref=e744]':
+                        - 'link "Inside Sales Executive job code: R_046187" [ref=e745] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_046187/Inside-Sales-Executive
+                          - generic [ref=e746]: Inside Sales Executive
+                      - paragraph [ref=e747]:
+                        - generic [ref=e749]:
+                          - generic [ref=e750]: Location
+                          - text: Copenhagen, Denmark
+                        - generic [ref=e752]:
+                          - generic [ref=e753]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e754]: Er du passioneret omkring salg og klar til at tage din karriere til næste niveau? Bliv en del af et dynamisk team, hvor du aktivt skaber partnerskaber og forhandler aftaler. Udvikl dine salgsevner og bidrag til virksomhedens vækst i et innovativt miljø.
+                    - link "Apply Now for Inside Sales Executive" [ref=e757] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR046187ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e758]: Inside Sales Executive
+                - listitem [ref=e759]:
+                  - generic [ref=e760]:
+                    - generic [ref=e761]:
+                      - 'heading "Field Sales Representative (Jylland) job code: R_047188" [level=3] [ref=e762]':
+                        - 'link "Field Sales Representative (Jylland) job code: R_047188" [ref=e763] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_047188/Field-Sales-Representative-Jylland
+                          - generic [ref=e764]: Field Sales Representative (Jylland)
+                      - paragraph [ref=e765]:
+                        - generic [ref=e767]:
+                          - generic [ref=e768]: Location
+                          - text: Copenhagen, Denmark
+                        - generic [ref=e770]:
+                          - generic [ref=e771]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e772]: Bliv en del af et dynamisk salgsteam, hvor du vil fokusere på at skabe nye partnerskaber og udvikle forretningen. Du skal have erfaring med opsøgende salg og være resultatorienteret. Vi tilbyder et arbejdsmiljø med frihed under ansvar og muligheder for personlig udvikling.
+                    - link "Apply Now for Field Sales Representative (Jylland)" [ref=e775] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR047188ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e776]: Field Sales Representative (Jylland)
+                - listitem [ref=e777]:
+                  - generic [ref=e778]:
+                    - generic [ref=e779]:
+                      - 'heading "Field Sales Manager Leipzig - Grocery & Retail (m/w/d) job code: R_047428" [level=3] [ref=e780]':
+                        - 'link "Field Sales Manager Leipzig - Grocery & Retail (m/w/d) job code: R_047428" [ref=e781] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_047428/Field-Sales-Manager-Leipzig-Grocery-Retail-m-w-d
+                          - generic [ref=e782]: Field Sales Manager Leipzig - Grocery & Retail (m/w/d)
+                      - paragraph [ref=e783]:
+                        - generic [ref=e785]:
+                          - generic [ref=e786]: Location
+                          - text: Berlin, Germany
+                        - generic [ref=e788]:
+                          - generic [ref=e789]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e790]: Bist du bereit, Teil eines dynamischen Teams zu werden? Wir suchen einen Field Sales Manager, der neue Grocery Partner:innen akquiriert und unser Angebot erweitert. Wenn du über Vertriebserfahrung und starke Kommunikationsfähigkeiten verfügst, bewirb dich jetzt!
+                    - link "Apply Now for Field Sales Manager Leipzig - Grocery & Retail (m/w/d)" [ref=e793] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR047428ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e794]: Field Sales Manager Leipzig - Grocery & Retail (m/w/d)
+                - listitem [ref=e795]:
+                  - generic [ref=e796]:
+                    - generic [ref=e797]:
+                      - 'heading "Field Account Executive - Ayrshire job code: R_046324" [level=3] [ref=e798]':
+                        - 'link "Field Account Executive - Ayrshire job code: R_046324" [ref=e799] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_046324/Field-Account-Executive-Ayrshire
+                          - generic [ref=e800]: Field Account Executive - Ayrshire
+                      - paragraph [ref=e801]:
+                        - generic [ref=e803]:
+                          - generic [ref=e804]: Location
+                          - text: London, United Kingdom
+                        - generic [ref=e806]:
+                          - generic [ref=e807]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e808]: Are you experienced in B2B sales and account management? Join our team as a Field Account Executive at Just Eat Takeaway.com, where you will drive growth and build relationships with restaurant partners. Enjoy flexible hours, a supportive culture, and exciting career opportunities!
+                    - link "Apply Now for Field Account Executive - Ayrshire" [ref=e811] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR046324ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e812]: Field Account Executive - Ayrshire
+                - listitem [ref=e813]:
+                  - generic [ref=e814]:
+                    - generic [ref=e815]:
+                      - 'heading "Strategic Account Manager - National & Virtual Brands 12 Month Fixed-Term Contract job code: R_044708" [level=3] [ref=e816]':
+                        - 'link "Strategic Account Manager - National & Virtual Brands 12 Month Fixed-Term Contract job code: R_044708" [ref=e817] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_044708/Strategic-Account-Manager-National-Virtual-Brands-12-Month-Fixed-Term-Contract
+                          - generic [ref=e818]: Strategic Account Manager - National & Virtual Brands 12 Month Fixed-Term Contract
+                      - paragraph [ref=e819]:
+                        - generic [ref=e821]:
+                          - generic [ref=e822]: Location
+                          - text: London, United Kingdom
+                        - generic [ref=e824]:
+                          - generic [ref=e825]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e826]: Are you experienced in strategic account management? Join our team at Just Eat Takeaway.com and lead the evolution of our Virtual Brands partnerships. Drive growth, collaborate cross-functionally, and make a significant impact in a fast-paced environment. Apply now!
+                    - link "Apply Now for Strategic Account Manager - National & Virtual Brands 12 Month Fixed-Term Contract" [ref=e829] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR044708ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e830]: Strategic Account Manager - National & Virtual Brands 12 Month Fixed-Term Contract
+                - listitem [ref=e831]:
+                  - generic [ref=e832]:
+                    - generic [ref=e833]:
+                      - 'heading "Field Market Activator - Liverpool job code: R_041640" [level=3] [ref=e834]':
+                        - 'link "Field Market Activator - Liverpool job code: R_041640" [ref=e835] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_041640/Field-Market-Activator-Liverpool
+                          - generic [ref=e836]: Field Market Activator - Liverpool
+                      - paragraph [ref=e837]:
+                        - generic [ref=e839]:
+                          - generic [ref=e840]: Location
+                          - text: London, United Kingdom
+                        - generic [ref=e842]:
+                          - generic [ref=e843]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e844]: Join our team as a Market Activator at Just Eat Takeaway! We're looking for passionate individuals eager to build relationships with restaurant and grocery partners. Enjoy a dynamic work environment with flexible hours and growth opportunities while contributing to our mission of delivering exceptional dining and shopping experiences.
+                    - link "Apply Now for Field Market Activator - Liverpool" [ref=e847] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR041640ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e848]: Field Market Activator - Liverpool
+                - listitem [ref=e849]:
+                  - generic [ref=e850]:
+                    - generic [ref=e851]:
+                      - 'heading "Account Manager im Außendienst - Münster, Bielefeld, Osnabrück (m/w/d) job code: R_048298" [level=3] [ref=e852]':
+                        - 'link "Account Manager im Außendienst - Münster, Bielefeld, Osnabrück (m/w/d) job code: R_048298" [ref=e853] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_048298/Account-Manager-im-Außendienst-Münster-Bielefeld-Osnabrück-m-w-d
+                          - generic [ref=e854]: Account Manager im Außendienst - Münster, Bielefeld, Osnabrück (m/w/d)
+                      - paragraph [ref=e855]:
+                        - generic [ref=e857]:
+                          - generic [ref=e858]: Location
+                          - text: Berlin, Germany
+                        - generic [ref=e860]:
+                          - generic [ref=e861]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e862]: Bist du bereit für eine Herausforderung? Werde Teil unseres Teams als Account Manager im Außendienst und unterstütze unsere Top-Partnerrestaurants dabei, ihre Performance zu optimieren. Nutze deine Kommunikationsstärke und dein Verkaufstalent, um echte Mehrwerte zu schaffen!
+                    - link "Apply Now for Account Manager im Außendienst - Münster, Bielefeld, Osnabrück (m/w/d)" [ref=e865] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR048298ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e866]: Account Manager im Außendienst - Münster, Bielefeld, Osnabrück (m/w/d)
+                - listitem [ref=e867]:
+                  - generic [ref=e868]:
+                    - generic [ref=e869]:
+                      - 'heading "Strategic Account Manager - Local Heroes job code: R_045987" [level=3] [ref=e870]':
+                        - 'link "Strategic Account Manager - Local Heroes job code: R_045987" [ref=e871] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_045987/Strategic-Account-Manager-Local-Heroes
+                          - generic [ref=e872]: Strategic Account Manager - Local Heroes
+                      - paragraph [ref=e873]:
+                        - generic [ref=e875]:
+                          - generic [ref=e876]: Location
+                          - text: The Hague, Netherlands
+                        - generic [ref=e878]:
+                          - generic [ref=e879]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e880]: Zoek je een uitdagende rol waarin je sterke relaties opbouwt met lokale restaurantpartners? Als strategisch accountmanager gebruik je data om groei te stimuleren en commerciële kansen te benutten. Sluit je aan bij een dynamisch team en maak impact in de food delivery sector.
+                    - link "Apply Now for Strategic Account Manager - Local Heroes" [ref=e883] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR045987ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e884]: Strategic Account Manager - Local Heroes
+                - listitem [ref=e885]:
+                  - generic [ref=e886]:
+                    - generic [ref=e887]:
+                      - 'heading "Field Account Manager - Brighton & Hove job code: R_048198" [level=3] [ref=e888]':
+                        - 'link "Field Account Manager - Brighton & Hove job code: R_048198" [ref=e889] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_048198/Field-Account-Manager-Brighton-Hove
+                          - generic [ref=e890]: Field Account Manager - Brighton & Hove
+                      - paragraph [ref=e891]:
+                        - generic [ref=e893]:
+                          - generic [ref=e894]: Location
+                          - text: London, United Kingdom
+                        - generic [ref=e896]:
+                          - generic [ref=e897]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e898]: Are you experienced in B2B sales and account management? Join our team as a Field Account Manager at Just Eat Takeaway.com, where you will drive growth and build relationships with restaurant partners. Enjoy flexible hours and a collaborative culture while making a significant impact in the food delivery industry.
+                    - link "Apply Now for Field Account Manager - Brighton & Hove" [ref=e901] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR048198ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e902]: Field Account Manager - Brighton & Hove
+                - listitem [ref=e903]:
+                  - generic [ref=e904]:
+                    - generic [ref=e905]:
+                      - 'heading "Field Account Executive - Doncaster job code: R_047714" [level=3] [ref=e906]':
+                        - 'link "Field Account Executive - Doncaster job code: R_047714" [ref=e907] [cursor=pointer]':
+                          - /url: https://careers.justeattakeaway.com/global/en/job/R_047714/Field-Account-Executive-Doncaster
+                          - generic [ref=e908]: Field Account Executive - Doncaster
+                      - paragraph [ref=e909]:
+                        - generic [ref=e911]:
+                          - generic [ref=e912]: Location
+                          - text: London, United Kingdom
+                        - generic [ref=e914]:
+                          - generic [ref=e915]: Category
+                          - text: Sales
+                      - text: 
+                      - paragraph [ref=e916]: Are you experienced in B2B sales and account management? Join our team as a Field Account Executive at Just Eat Takeaway.com, where you will drive growth and build strong relationships with restaurant partners. Enjoy a collaborative culture and clear career path while making a significant impact in the food delivery industry.
+                    - link "Apply Now for Field Account Executive - Doncaster" [ref=e919] [cursor=pointer]:
+                      - /url: https://careers.justeattakeaway.com/global/en/apply?jobSeqNo=TAKEGLOBALR047714ENGLOBAL
+                      - text: Apply Now
+                      - generic [ref=e920]: Field Account Executive - Doncaster
+          - text: Z 
+      - generic [ref=e929]:
+        - generic [ref=e930]:
+          - generic:
+            - figure
+        - generic [ref=e932]:
+          - generic [ref=e934]: join our talent community
+          - generic [ref=e936]: Sign up for job alerts that match your interests
+          - link "Sign up now" [ref=e939] [cursor=pointer]:
+            - /url: https://flows.beamery.eu/justeattakeaway/JET-Talent-community
+            - generic [ref=e940]: Sign up now
+            - text: 
+  - contentinfo [ref=e941]:
+    - generic [ref=e943]:
+      - list [ref=e946]:
+        - listitem [ref=e947]:
+          - link "Career Site Cookie Settings" [ref=e948] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - text: Manage preferences
+        - listitem [ref=e949]:
+          - link "Personal Information" [ref=e950] [cursor=pointer]:
+            - /url: https://careers.justeattakeaway.com/global/en/emailpersonalinfo
+      - generic [ref=e954]:
+        - link "jet-footer" [ref=e956] [cursor=pointer]:
+          - /url: /
+          - img "jet-footer" [ref=e957]
+        - generic [ref=e958]:
+          - heading "follow us" [level=2] [ref=e959]
+          - list [ref=e960]:
+            - listitem [ref=e961]:
+              - link "facebook" [ref=e962] [cursor=pointer]:
+                - /url: https://www.facebook.com/WeAreJustEatTakeaway
+                - img [ref=e964]
+            - listitem [ref=e966]:
+              - link "linkedIn" [ref=e967] [cursor=pointer]:
+                - /url: https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F103531%2Fadmin%2F
+                - img [ref=e969]
+            - listitem [ref=e971]:
+              - link "twitter" [ref=e972] [cursor=pointer]:
+                - /url: https://x.com/JustEatUK?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                - img [ref=e974]
+            - listitem [ref=e976]:
+              - link "instagram" [ref=e977] [cursor=pointer]:
+                - /url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwearejetcom%2F&is_from_rle
+                - img [ref=e979]
+            - listitem [ref=e981]:
+              - link "youtube" [ref=e982] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCsc8W65CYNODk27yrsctYMg
+                - img [ref=e984]
+      - generic [ref=e988]:
+        - text: Copyright © 2025 Just Eat Takeaway.com
+        - strong [ref=e989]:
+          - link "Privacy Statement" [ref=e990] [cursor=pointer]:
+            - /url: https://careers.justeattakeaway.com/global/en/privacy-statement
+  - region "Cookie banner" [ref=e991]:
+    - dialog "Cookies" [ref=e992]:
+      - generic [ref=e994]:
+        - generic [ref=e996]:
+          - heading "Cookies" [level=2] [ref=e997]
+          - generic [ref=e998]:
+            - text: We use our own and third party cookies and other tech to enhance and personalise your user experience, optimize analytics, and show ads with third parties. Necessary cookies are always set. Click "Necessary Only" to continue without accepting more. Click "Manage Preferences" to share your preferences or "Accept All".
+            - link "More information about your privacy, opens in a new tab" [ref=e999] [cursor=pointer]:
+              - /url: https://careers.justeattakeaway.com/global/en/cookie-policy
+              - text: Read our Cookie Policy
+        - generic [ref=e1001]:
+          - button "Manage preferences, Opens the preference center dialog" [ref=e1002] [cursor=pointer]: Manage preferences
+          - button "Necessary Only" [ref=e1003] [cursor=pointer]
+          - button "Accept all" [ref=e1004] [cursor=pointer]
+```
